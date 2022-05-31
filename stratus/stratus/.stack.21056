@@ -1,0 +1,51 @@
+[New LWP 21749]
+[Thread debugging using libthread_db enabled]
+Using host libthread_db library "/lib64/libthread_db.so.1".
+0x00000036a64bd3f9 in waitpid () from /lib64/libc.so.6
+#0  0x00000036a64bd3f9 in waitpid () from /lib64/libc.so.6
+#1  0x00000036a6442542 in do_system () from /lib64/libc.so.6
+#2  0x00000036a64428f1 in system () from /lib64/libc.so.6
+#3  0x00002b6eed730d53 in dumpStack () from /usr/cadtool/cadence/STRATUS/cur/tools.lnx86/stratus/lib/64bit/libbdw_st.so
+#4  0x00002b6eed645a66 in msgAbortChk () from /usr/cadtool/cadence/STRATUS/cur/tools.lnx86/stratus/lib/64bit/libbdw_st.so
+#5  0x00002b6eea39bbdb in stratus_display_message () from /usr/cadtool/cadence/STRATUS/cur/tools.lnx86/stratus/lib/64bit/libstratus_hls.so
+#6  0x00002b6eea39fb63 in construct_message () from /usr/cadtool/cadence/STRATUS/cur/tools.lnx86/stratus/lib/64bit/libstratus_hls.so
+#7  0x00002b6eea39d364 in wrap_up_diagnostic () from /usr/cadtool/cadence/STRATUS/cur/tools.lnx86/stratus/lib/64bit/libstratus_hls.so
+#8  0x00002b6eea3a240b in pos_st_diagnostic () from /usr/cadtool/cadence/STRATUS/cur/tools.lnx86/stratus/lib/64bit/libstratus_hls.so
+#9  0x00002b6eea3a5806 in pos_st_catastrophe () from /usr/cadtool/cadence/STRATUS/cur/tools.lnx86/stratus/lib/64bit/libstratus_hls.so
+#10 0x00002b6eea3a5823 in str_catastrophe () from /usr/cadtool/cadence/STRATUS/cur/tools.lnx86/stratus/lib/64bit/libstratus_hls.so
+#11 0x00002b6eea53c949 in pp_directive () from /usr/cadtool/cadence/STRATUS/cur/tools.lnx86/stratus/lib/64bit/libstratus_hls.so
+#12 0x00002b6eea4a1c96 in get_token () from /usr/cadtool/cadence/STRATUS/cur/tools.lnx86/stratus/lib/64bit/libstratus_hls.so
+#13 0x00002b6eea4a559d in required_token () from /usr/cadtool/cadence/STRATUS/cur/tools.lnx86/stratus/lib/64bit/libstratus_hls.so
+#14 0x00002b6eea375df3 in namespace_declaration () from /usr/cadtool/cadence/STRATUS/cur/tools.lnx86/stratus/lib/64bit/libstratus_hls.so
+#15 0x00002b6eea378a6a in scan_nonmember_declaration () from /usr/cadtool/cadence/STRATUS/cur/tools.lnx86/stratus/lib/64bit/libstratus_hls.so
+#16 0x00002b6eea37562d in declaration () from /usr/cadtool/cadence/STRATUS/cur/tools.lnx86/stratus/lib/64bit/libstratus_hls.so
+#17 0x00002b6eea375e4b in namespace_declaration () from /usr/cadtool/cadence/STRATUS/cur/tools.lnx86/stratus/lib/64bit/libstratus_hls.so
+#18 0x00002b6eea378a6a in scan_nonmember_declaration () from /usr/cadtool/cadence/STRATUS/cur/tools.lnx86/stratus/lib/64bit/libstratus_hls.so
+#19 0x00002b6eea37562d in declaration () from /usr/cadtool/cadence/STRATUS/cur/tools.lnx86/stratus/lib/64bit/libstratus_hls.so
+$1 = 0
+$2 = 0
+#4  0x00002b6eed645a66 in msgAbortChk () from /usr/cadtool/cadence/STRATUS/cur/tools.lnx86/stratus/lib/64bit/libbdw_st.so
+#5  0x00002b6eea39bbdb in stratus_display_message () from /usr/cadtool/cadence/STRATUS/cur/tools.lnx86/stratus/lib/64bit/libstratus_hls.so
+#6  0x00002b6eea39fb63 in construct_message () from /usr/cadtool/cadence/STRATUS/cur/tools.lnx86/stratus/lib/64bit/libstratus_hls.so
+#7  0x00002b6eea39d364 in wrap_up_diagnostic () from /usr/cadtool/cadence/STRATUS/cur/tools.lnx86/stratus/lib/64bit/libstratus_hls.so
+#8  0x00002b6eea3a240b in pos_st_diagnostic () from /usr/cadtool/cadence/STRATUS/cur/tools.lnx86/stratus/lib/64bit/libstratus_hls.so
+#9  0x00002b6eea3a5806 in pos_st_catastrophe () from /usr/cadtool/cadence/STRATUS/cur/tools.lnx86/stratus/lib/64bit/libstratus_hls.so
+#10 0x00002b6eea3a5823 in str_catastrophe () from /usr/cadtool/cadence/STRATUS/cur/tools.lnx86/stratus/lib/64bit/libstratus_hls.so
+#11 0x00002b6eea53c949 in pp_directive () from /usr/cadtool/cadence/STRATUS/cur/tools.lnx86/stratus/lib/64bit/libstratus_hls.so
+#12 0x00002b6eea4a1c96 in get_token () from /usr/cadtool/cadence/STRATUS/cur/tools.lnx86/stratus/lib/64bit/libstratus_hls.so
+#13 0x00002b6eea4a559d in required_token () from /usr/cadtool/cadence/STRATUS/cur/tools.lnx86/stratus/lib/64bit/libstratus_hls.so
+#14 0x00002b6eea375df3 in namespace_declaration () from /usr/cadtool/cadence/STRATUS/cur/tools.lnx86/stratus/lib/64bit/libstratus_hls.so
+#15 0x00002b6eea378a6a in scan_nonmember_declaration () from /usr/cadtool/cadence/STRATUS/cur/tools.lnx86/stratus/lib/64bit/libstratus_hls.so
+#16 0x00002b6eea37562d in declaration () from /usr/cadtool/cadence/STRATUS/cur/tools.lnx86/stratus/lib/64bit/libstratus_hls.so
+#17 0x00002b6eea375e4b in namespace_declaration () from /usr/cadtool/cadence/STRATUS/cur/tools.lnx86/stratus/lib/64bit/libstratus_hls.so
+#18 0x00002b6eea378a6a in scan_nonmember_declaration () from /usr/cadtool/cadence/STRATUS/cur/tools.lnx86/stratus/lib/64bit/libstratus_hls.so
+#19 0x00002b6eea37562d in declaration () from /usr/cadtool/cadence/STRATUS/cur/tools.lnx86/stratus/lib/64bit/libstratus_hls.so
+#20 0x00002b6eea37a130 in translation_unit () from /usr/cadtool/cadence/STRATUS/cur/tools.lnx86/stratus/lib/64bit/libstratus_hls.so
+#21 0x00002b6eea5b2721 in process_translation_unit () from /usr/cadtool/cadence/STRATUS/cur/tools.lnx86/stratus/lib/64bit/libstratus_hls.so
+#22 0x00002b6eea30cf61 in edg_main () from /usr/cadtool/cadence/STRATUS/cur/tools.lnx86/stratus/lib/64bit/libstratus_hls.so
+#23 0x0000000000400abf in main ()
+A debugging session is active.
+
+	Inferior 1 [process 21056] will be detached.
+
+Quit anyway? (y or n) [answered Y; input not from terminal]
